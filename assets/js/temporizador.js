@@ -14,7 +14,7 @@ const tempoRestante = () => {
     segundos--;
   } else if (minutos > 0) {
     minutos--;
-    segundos = 10;
+    segundos = 59;
   } else {
     clearInterval(interval);
     cards.forEach(card => card.remove());
